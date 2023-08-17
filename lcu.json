@@ -1,0 +1,10 @@
+{
+  "Package": {
+    "Name": "Habistack Demo Starter",
+    "Description": "A starter for custom forecast apps that utilizes Habistack IoT Sensors and Weather data.",
+    "Button": "Launch Smart Building",
+    "Image": "https://www.fathym.com/dashboard/assets/images/black_thinky.png",
+    "PreviewImage": "https://www.fathym.com/dashboard/assets/images/black_thinky.png",
+    "UsesGit": true
+  }
+}
