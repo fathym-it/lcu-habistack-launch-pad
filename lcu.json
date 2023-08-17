@@ -2,9 +2,28 @@
   "Package": {
     "Name": "Habistack Demo Starter",
     "Description": "A starter for custom forecast apps that utilizes Habistack IoT Sensors and Weather data.",
-    "Button": "Launch Smart Building",
-    "Image": "https://www.fathym.com/dashboard/assets/images/black_thinky.png",
-    "PreviewImage": "https://www.fathym.com/dashboard/assets/images/black_thinky.png",
-    "UsesGit": true
+    "Image": "https://www.fathym.com/assets/images/logo.png",
+    "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
+    "Intents": [
+      "Smart Building",
+      "Habistack",
+      "Launch Control",
+      "Getting Started",
+      "IoT",
+      "Azure Cloud"
+    ]
+  },
+  "Configurations": {
+    "Basic": {
+      "Name": "Habistack Demo Starter",
+      "Description": "A starter for custom forecast apps that utilizes Habistack IoT Sensors and Weather data.",
+      "Phases": [
+        {
+          "Name": "Configure Habistack Demo Starter",
+          "Order": 1,
+          "Asset": "configure"
+        }
+      ]
+    }
   }
 }
