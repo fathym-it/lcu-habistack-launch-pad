@@ -62,6 +62,25 @@
           "Value": "{\r\n    \"Location\": \"{{DEFAULT_LOCATION}}\",\r\n    \"IoTAPIQuery\": \"\/WarmQuery?includeEmulated=true&page=1&pageSize=100\"\r\n}"
         }
       }
+    },
+    "$4": {
+      "Application": {
+        "Description": "Proadject Demo",
+        "Name": "A Proadject Demo using Habistack APIs"
+      },
+      "LookupConfig": {
+        "PathRegex": "/proadject.*"
+      },
+      "LowCodeUnit": {
+        "Package": "@habistack/lcu-fathym-forecast-demo",
+        "Version": "latest",
+        "Type": "NPM"
+      },
+      "Processor": {
+        "BaseHref": "/proadject/",
+        "DefaultFile": "index.html",
+        "Type": "DFS"
+      }
     }
   },
   "Environments": {
