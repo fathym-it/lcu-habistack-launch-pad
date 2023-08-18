@@ -76,6 +76,29 @@
         },
         "Type": "ProxyProcessor"
       }
+    },
+    "{{PROJECT_LOOKUP}}-proadject-demo": {
+      "Details": {
+        "Description": "Proadject Demo",
+        "Name": "A Proadject Demo using Habistack APIs"
+      },
+      "LookupConfig": {
+        "PathRegex": "/proadject.*"
+      },
+      "Package": {
+        "Details": {
+          "Package": "@habistack/lcu-fathym-forecast-demo",
+          "Version": "latest"
+        },
+        "Type": "NPMLowCodeUnit"
+      },
+      "Processor": {
+        "Details": {
+          "BaseHref": "/proadject/",
+          "DefaultFile": "index.html"
+        },
+        "Type": "DFSProcessor"
+      }
     }
   },
   "Environments": {
@@ -125,7 +148,8 @@
       "ApplicationLookups": [
         "{{PROJECT_LOOKUP}}-data-dashboard",
         "{{PROJECT_LOOKUP}}-habistack-api-proxy",
-        "{{PROJECT_LOOKUP}}-geocodio-api-proxy"
+        "{{PROJECT_LOOKUP}}-geocodio-api-proxy",
+        "{{PROJECT_LOOKUP}}-proadject-demo"
       ]
     }
   }
