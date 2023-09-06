@@ -79,8 +79,8 @@
     },
     "{{PROJECT_LOOKUP}}-weather-forecast-demo": {
       "Details": {
-        "Description": "Weather Forecast Demo",
-        "Name": "A route weather forecast application using Habistack APIs"
+        "Description": "A route weather forecast application using Habistack APIs",
+        "Name": "Weather Forecast Demo"
       },
       "LookupConfig": {
         "PathRegex": "/forecast.*"
