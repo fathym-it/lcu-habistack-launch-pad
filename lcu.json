@@ -1,5 +1,6 @@
 {
   "Package": {
+<<<<<<< HEAD
     "Name": "Weather Forecast Launch Pad",
     "Description": "A weather forecast launch pad that consists of a machine learning-derived forecast dashboard for a specified location and a route forecast application powered by Habistack and Geocodio APIs.",
     "Image": "https://www.fathym.com/assets/images/logo.png",
@@ -25,5 +26,13 @@
         }
       ]
     }
+=======
+    "Name": "Habistack Launch Pad",
+    "Description": "A Habistack launch pad that consists of a data dashboard (GitHub fork) and Freeboard dashboard (NPM) auto-populated with emulated data or device data from multiple APIs.",
+    "Button": "Launch Smart Building",
+    "Image": "https://www.fathym.com/dashboard/assets/images/black_thinky.png",
+    "PreviewImage": "https://www.fathym.com/dashboard/assets/images/black_thinky.png",
+    "UsesGit": true
+>>>>>>> origin/integration
   }
 }
