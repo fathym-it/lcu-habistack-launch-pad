@@ -1,6 +1,6 @@
 {
   "name": "@fathym-it/lcu-habistack-launch-pad",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "@fathym-it/lcu-habistack-launch-pad",
   "author": "Fathym, Inc",
   "main": "lcu.json",
