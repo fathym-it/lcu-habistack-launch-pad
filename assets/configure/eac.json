@@ -145,6 +145,10 @@
   },
   "Projects": {
     "{{PROJECT_LOOKUP}}": {
+      "Details": {
+        "Name": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Name}}{{Details.Name}}{{/if}}{{else}}Habistack Launch Pad{{/if}}",
+        "Description": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Description}}{{Details.Description}}{{/if}}{{else}}A Habistack launch pad that consists of a data dashboard (GitHub fork) and Freeboard dashboard (NPM) auto-populated with emulated data or device data from multiple APIs.{{/if}}"
+      },
       "ApplicationLookups": [
         "{{PROJECT_LOOKUP}}-data-dashboard",
         "{{PROJECT_LOOKUP}}-habistack-api-proxy",

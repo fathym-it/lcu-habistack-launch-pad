@@ -1,7 +1,7 @@
 {
   "Package": {
-    "Name": "Habistack Demo Starter",
-    "Description": "A starter for custom forecast apps that utilizes Habistack IoT Sensors and Weather data.",
+    "Name": "Habistack Launch Pad",
+    "Description": "A Habistack launch pad that consists of a data dashboard (GitHub fork) and Freeboard dashboard (NPM) auto-populated with emulated data or device data from multiple APIs.",
     "Image": "https://www.fathym.com/assets/images/logo.png",
     "PreviewImage": "https://www.fathym.com/assets/images/logo.png",
     "Intents": [
@@ -15,8 +15,8 @@
   },
   "Configurations": {
     "Basic": {
-      "Name": "Habistack Demo Starter",
-      "Description": "A starter for custom forecast apps that utilizes Habistack IoT Sensors and Weather data.",
+      "Name": "Habistack Launch Pad",
+      "Description": "A Habistack launch pad that consists of a data dashboard (GitHub fork) and Freeboard dashboard (NPM) auto-populated with emulated data or device data from multiple APIs.",
       "Phases": [
         {
           "Name": "Configure Habistack Demo Starter",
